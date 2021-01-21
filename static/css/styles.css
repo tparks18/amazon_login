@@ -1,0 +1,81 @@
+img {
+  padding-bottom: 45px;
+}
+#container {
+  border: 1px solid #cecece;
+  width: 500px;
+  justify-content: center;
+}
+
+#accountCreation {
+  background-color: lightgrey;
+  margin: auto;
+  color: black;
+}
+
+.email-input {
+  width: 100%;
+}
+
+.password-container {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  margin: auto;
+  padding: 50px;
+}
+ul {
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  font-size: x-small;
+  color: cornflowerblue;
+}
+
+h3 {
+  font-size: x-small;
+  text-align: center;
+}
+
+.separator-container {
+  width: 226px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: smaller;
+  color: lightslategray;
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid lightslategray;
+}
+.separator::before {
+  margin-right: 0.25em;
+}
+.separator::after {
+  margin-left: 0.25em;
+}
+
+.line {
+  padding-top: 57px;
+}
+
+hr.solid {
+  border-top: 1px solid #bbb;
+}
